@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crossword-generator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "crossword_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+word-search-generator = "3.0.0b1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
