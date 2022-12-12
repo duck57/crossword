@@ -8,7 +8,6 @@ packages = [{include = "crossword_generator"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-word-search-generator = "3.0.0b1"
 
 
 [build-system]
